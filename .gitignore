@@ -1,0 +1,43 @@
+# ─── BACKEND ────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/db.sqlite3
+
+# ─── FRONTEND ───────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Yarn / npm / pnpm (if used)
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+
+# Testing & coverage
+frontend/coverage
+
+# Build outputs
+frontend/out/
+frontend/build/
+
+# Misc system files
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Vercel configs
+frontend/.vercel
