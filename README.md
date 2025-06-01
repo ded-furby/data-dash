@@ -1,6 +1,6 @@
-# 📊 TeleTrack - Real-Time Data Visualization Dashboard
+# 📊 data-dash. - Real-Time Data Visualization Dashboard
 
-TeleTrack is a modern real-time data visualization dashboard that tracks and displays cryptocurrency prices, currency exchange rates, weather data, and stock information. Built with Django (backend) and Next.js (frontend), it features intelligent time-series charts that adapt to data variations.
+data-dash. is a modern real-time data visualization dashboard that tracks and displays cryptocurrency prices, currency exchange rates, weather data, and stock information. Built with Django (backend) and Next.js (frontend), it features intelligent time-series charts that adapt to data variations.
 
 ## ✨ Features
 
@@ -37,8 +37,8 @@ TeleTrack is a modern real-time data visualization dashboard that tracks and dis
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/teletrack.git
-   cd teletrack
+   git clone https://github.com/your-username/data-dash..git
+   cd data-dash.
    ```
 
 2. **Backend Setup:**
@@ -86,7 +86,7 @@ TeleTrack is a modern real-time data visualization dashboard that tracks and dis
 
 ## 📊 Data Sources
 
-TeleTrack collects data from multiple sources:
+data-dash. collects data from multiple sources:
 
 - **🪙 Cryptocurrency**: Bitcoin, Ethereum prices via CoinGecko
 - **💱 Currency Exchange**: USD/EUR, USD/CAD, USD/AUD rates
@@ -132,9 +132,9 @@ python manage.py collect_data --source=all --repeat=5 --delay=300
 ## 📁 Project Structure
 
 ```
-teletrack/
+data-dash./
 ├── backend/                 # Django backend
-│   ├── teletrack_backend/   # Django project settings
+│   ├── data_dash_backend/   # Django project settings
 │   ├── datavisualizer/     # Main Django app
 │   ├── manage.py           # Django management script
 │   ├── requirements.txt    # Python dependencies
@@ -156,7 +156,7 @@ For better rate limits and more data sources, you can add API keys. **The OpenWe
 
 1. **Get your free API key** from https://openweathermap.org/api
 2. **Option A - Direct settings file edit (Easiest):**
-   - Open `backend/teletrack_backend/settings.py`
+   - Open `backend/data_dash_backend/settings.py`
    - Find the line: `OPENWEATHER_API_KEY = os.environ.get('OPENWEATHER_API_KEY', 'YOUR_OPENWEATHER_API_KEY_HERE')`
    - Replace `YOUR_OPENWEATHER_API_KEY_HERE` with your actual API key
 
@@ -171,7 +171,7 @@ For better rate limits and more data sources, you can add API keys. **The OpenWe
 
 ### **Other API Keys (Optional)**
 
-Add these keys to `backend/teletrack_backend/settings.py` for enhanced features:
+Add these keys to `backend/data_dash_backend/settings.py` for enhanced features:
 
 ```python
 # API Keys (add your API keys here or use environment variables)
@@ -231,7 +231,7 @@ npm install
 
 ## 📈 Chart Behavior
 
-TeleTrack features intelligent chart visualization:
+data-dash. features intelligent chart visualization:
 
 - **📊 Line Charts**: For data with variations (crypto prices, stocks)
 - **⚫ Dot Charts**: For stable values (currency rates with minimal change)
@@ -262,6 +262,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**🎉 Your TeleTrack dashboard is ready!**
+**🎉 Your data-dash. dashboard is ready!**
 
 Visit http://localhost:3000 to see your real-time data visualization dashboard in action! 

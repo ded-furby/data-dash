@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# 🚀 TeleTrack Backend Startup Script
+# 🚀 data-dash. Backend Startup Script
 
-echo "🚀 Starting TeleTrack Backend..."
+echo "🚀 Starting data-dash. Backend..."
 
 # Navigate to backend directory
 cd backend
